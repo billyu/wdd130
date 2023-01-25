@@ -1,0 +1,24 @@
+.test {
+    font-size: 150%;
+}
+
+.child {
+    font-size: 150%;
+    margin: 0 auto;
+}
+
+div.blue {
+    height: 50px;
+    width: 50%;
+    background-color: blue;
+    margin: 0 auto;
+    text-align: center;
+}
+
+div.red {
+    height: 50px;
+    background-color: red;
+    max-width: 500px;
+}
+
+
