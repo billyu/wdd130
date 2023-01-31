@@ -1,0 +1,23 @@
+#top-row {
+    width: 740px;
+    margin: 0px;
+}
+
+#top-row img {
+    display: block;
+    width: 100%;
+}
+
+#bottom-row {
+    margin: 0px;
+    padding: 30px;
+    width: 680px;
+    background-color: rgb(106, 106, 106);
+}
+
+#bottom-row img {
+    margin: 20px;
+    width: 160px;
+    border-radius: 50%;
+    border:rgb(85, 84, 84) solid 10px;
+}
