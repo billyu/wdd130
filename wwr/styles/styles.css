@@ -1,5 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto&display=swap');
+
 body {
     background-color: white;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+#logo_link {
+    padding-top: 5px;
 }
 
 #content {
@@ -13,6 +27,7 @@ header {
 
 nav a {
     color: #00337C;
+    padding: 35px;
     text-align: center;
     text-decoration: none;
 }
@@ -27,6 +42,7 @@ nav a:hover {
 }
 
 .icon {
+    padding-top: 10px;
     width: 80px;
 }
 
@@ -40,6 +56,9 @@ nav a:hover {
 
 .home-title {
     color: #00337C;
+    font-family: "Libre Baskerville", "Times New Roman", serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 .button-box {
@@ -50,6 +69,10 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 #background {
     height: 725px;
     background-color: #F5DD90;;
@@ -57,7 +80,11 @@ main section {
 
 .book, .join {
     background-color: #219EBC;
+    border-radius: 5px;
     color: white;
+    font-size: 18px;
+    margin-top: 50px;
+    padding: 15px 30px;
     text-decoration: none;
 }
 
@@ -66,20 +93,35 @@ main section {
     color: #00337C;
 }
 
+.river-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #219EBC;
+}
+
 .msg {
-    background-color: #8ECAE6;    
+    background-color: #8ECAE6;
+    line-height: 1.5em;  
+    padding: 35px;
 }
 
 .msg h2 {
     color: #00337C;
+    font-family: "Libre Baskerville", "Times New Roman", serif;
 }
 
 .msg p {
     color: #00337C;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer {
     background-color: #219EBC;
+    margin-top: 200px;
+    padding: 25px 50px;
 }
 
 footer a {
@@ -97,4 +139,21 @@ footer p a:hover {
     text-decoration: underline;
 }
 
+footer .social img {
+    padding-top: 15px;
+}
+
+/* Extra style rules that does not included in the assignment */
+
+#background {
+    margin: 50px 0;
+}
+
+.mountains {
+    margin: 50px 0;
+}
+
+.msg {
+    margin: 100px 0;
+}
 
