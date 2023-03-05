@@ -246,11 +246,9 @@ footer .social img {
 /* Style rules for DISCOVER page */
 
 #river-list {
-    width: 80%;
     box-shadow: 5px 5px 10px #6f7364;
     overflow: hidden;
     background-color: #8ECAE6;
-    margin: 0 auto;
 }
 
 .river-item {
