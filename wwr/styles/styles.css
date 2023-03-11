@@ -292,6 +292,98 @@ footer .social img {
     margin-top: 0;
 }
 
+/* Style rules for Contact page */
+
+.contact-form {
+    background-color: #8ECAE6;
+    box-shadow: 5px 5px 10px #6f7364;
+    margin: 50px 0;
+}
+
+form {
+    /* Make the form occupied the first row of the grid */
+    grid-column: 1/11;    
+
+    /* Center the form on the page */
+    margin: 100px auto;
+    width: 400px;
+    /* Form outline */
+    padding: 1em;
+    border: 1px solid #00337C;
+    border-radius: 1em;
+}
+
+form ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+form li + li {
+    margin-top: 1em;
+}
+
+form label {
+    /* Uniform size & alignment */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+form input, textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em sans-serif;
+
+    /* Uniform text field size */
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    /* Match form field borders */
+    border: 1px solid #999;
+}
+
+form input:focus, textarea:focus {
+    /* Additional highlight for focused elements */
+    border-color: #000;
+}
+
+form textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+
+    /* Give enough room to type some text */
+    height: 5em;
+}
+
+form .button {
+    /* Align buttons with the text fields */
+    padding-left: 90px; /* same size as the label elements */
+}
+
+form button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: .5em;
+}
+
+#feedback {
+    background-color: antiquewhite;
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none; 
+}
+
+.moveDown {
+    margin-top: 3em;
+}
+
+
 /* Responsive design */
 
 @media screen and (max-width: 900px) {
