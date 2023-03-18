@@ -1,0 +1,100 @@
+/******************************************************************************
+START grid layout extra credit
+******************************************************************************/
+* {}
+
+.grid1 {
+    background-color: lightgrey;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    padding:  2em 1em;
+    align-items: center;
+}
+
+.grid1 h1 {
+    grid-column: 1 / 13;
+}
+
+.grid2 {
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column: 2 / 11;
+}
+
+.grid2 h2 {
+    grid-column: 1 / 7;
+    text-align: center;
+}
+
+.grid3 {
+    background-color: lightgreen;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column: 7 / 13;
+}
+
+.grid3 h3 {
+    grid-column: 2 / 13;
+}
+
+.grid4 {
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column: 4 / 11;
+}
+
+.grid4 h2 {
+    grid-column: 2 / 13;
+}
+
+section {
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column: 2 / 9;
+    padding: 2em;
+}
+
+
+section h2 {
+    grid-column: 1 / 13;
+}
+
+form {
+    background-color: lightyellow;
+    grid-column: 2 / 7;
+}
+
+legend {
+    color:blue;
+}
+
+fieldset>div {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 1em;
+    margin: 1em;
+}
+
+label {
+    text-align: right;
+}
+
+input {
+    width: 100%;
+    text-align: left;
+}
+
+button {
+    width: 100%;
+    background-color: lightblue;
+    font-size: 1.5em;
+}
+
+
+section>div {
+    grid-column: 2 / 7;
+    margin: 1em 0;
+}
